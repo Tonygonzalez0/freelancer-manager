@@ -1,12 +1,31 @@
-# React + Vite
+# 🧑‍💻 Freelancer Manager
+A simple React app to manage a list of freelancers — add, filter by hourly rate, and remove them dynamically. Built as a practice project to sharpen React fundamentals and UI component design using TailwindCSS.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+### 🚀 Live Demo
 
-Currently, two official plugins are available:
+https://freelancer-manager-six.vercel.app/
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## ✨ Features
+- Add a new freelancer with name, skill, and hourly rate
+- Filter the list by max hourly rate
+- Remove freelancers from the list
+- Dynamic stats (total count & average rate)
+- TailwindCSS styling with responsive layout
+- Error-proofing: unique IDs, input validation, empty-state handling
+- Modular React components (FreelancerCard, FreelancerForm, RateFilter, FreelancerStats)
 
-## Expanding the ESLint configuration
+## 🛠 Tech Stack
+- **Frontend**: React + Vite
+- **Styling**: TailwindCSS
+- **Deployment**: Vercel
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 📚 What I Learned
+- How to manage dynamic state with React’s useState hook
+- The importance of unique keys and immutability in React rendering
+- How to lift state and pass handlers cleanly to components
+- TailwindCSS basics and applying responsive design
+- Handling form input validation and edge cases
+- How to refactor logic to be modular and reusable
+- How to deploy with Vercel and use GitHub for version control
+
+## 📸 Screenshot
