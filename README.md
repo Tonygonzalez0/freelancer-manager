@@ -29,3 +29,4 @@ https://freelancer-manager-six.vercel.app/
 - How to deploy with Vercel and use GitHub for version control
 
 ## 📸 Screenshot
+![Demo](./demo.gif)
